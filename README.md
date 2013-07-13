@@ -1,14 +1,14 @@
 # random-stream
 
-Generate a random stream of acscii characters. Characters are written every time, _t_, chosen at random each write from an interval supplied by the user. Useful for testing and spamming.
+Generate a random stream of acscii characters. Characters are written at random intervals, _dt_. The time interval _dt_ is chosen between `min` and `max` times supplied by the user. Useful for testing, examples and spamming.
 
 ## Example
 ```javascript
 var RandomStream = require('../.')
 
 var r = RandomStream({
-  min: 250
-, max: 1000
+  min: 250   // in milliseconds
+, max: 1000  // in milliseconds
 })
 
 r.pipe(process.stdout)
