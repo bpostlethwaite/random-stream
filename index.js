@@ -1,3 +1,8 @@
+/*
+ * random-stream
+ * Ben Postlethwaite
+ * 2013 MIT
+ */
 var Readable = require('stream').Readable
 
 module.exports = function (options) {
