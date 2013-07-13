@@ -2,6 +2,7 @@ var Readable = require('stream').Readable
 
 module.exports = function (options) {
 
+  options = options || {}
   var stream = new Readable()
 
   var randInt = randIntGenerator(options.min, options.max)

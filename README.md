@@ -13,7 +13,7 @@ var r = RandomStream({
 
 r.pipe(process.stdout)
 ```
-where `options.min` and `options.max` are the user supplied random time interval for the write.
+where `options.min` and `options.max` are the user supplied random time interval for the random character writes. The times given in the example are the defaults used if no options object is passed in.
 
 ## Install
 ```shell

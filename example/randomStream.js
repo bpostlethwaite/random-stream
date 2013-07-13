@@ -1,6 +1,6 @@
 var RandomStream = require('../.')
 
-var r = RandomStream({
+var r = RandomStream( {
   min: 250
 , max: 1000
 })

@@ -1,0 +1,28 @@
+{
+  "name": "random-stream",
+  "version": "0.0.1",
+  "description": "generate a stream of random ascii characters",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpostlethwaite/random-stream.git"
+  },
+  "keywords": [
+    "random-stream",
+    "random",
+    "stream",
+    "ascii-stream",
+    "ascii"
+  ],
+  "author": "ben postlethwaite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpostlethwaite/random-stream/issues"
+  }
+}
