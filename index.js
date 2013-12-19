@@ -32,8 +32,8 @@ function randChar () {
 }
 
 function randIntGenerator(min, max) {
-  if (!min) min = 250
-  if (!max) max = 1000
+  if (!min) min = 50
+  if (!max) max = 250
 
   return function () {
     return Math.floor(Math.random() * (max - min + 1)) + min

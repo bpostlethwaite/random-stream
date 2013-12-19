@@ -1,7 +1,7 @@
 {
   "name": "random-stream",
-  "version": "0.0.3",
-  "description": "generate a stream of random ascii characters",
+  "version": "0.0.4",
+  "description": "Random ASCII source stream for experimentation and testing. Trivial, silly and sometimes useful."
   "main": "index.js",
   "directories": {
     "example": "example"
